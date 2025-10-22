@@ -439,13 +439,15 @@ MONGO_PASSWORD=your-mongodb-password-here
 For MongoDB Atlas, you can also use the full URI:
 
 ```bash
-MONGO_URI=mongodb+srv://admin:password@elearning-cluster.xxxxx.mongodb.net/elearning_content?retryWrites=true&w=majority
+# Replace YOUR_USERNAME, YOUR_PASSWORD, YOUR_CLUSTER with your actual values
+MONGO_URI=mongodb+srv://YOUR_USERNAME:YOUR_PASSWORD@YOUR_CLUSTER.mongodb.net/elearning_content?retryWrites=true&w=majority
 ```
 
 For Supabase PostgreSQL:
 
 ```bash
-DATABASE_URL=postgresql://postgres:password@db.xxxsupabase.co:5432/postgres
+# Replace YOUR_PASSWORD and YOUR_PROJECT_REF with your actual values
+DATABASE_URL=postgresql://postgres:YOUR_PASSWORD@db.YOUR_PROJECT_REF.supabase.co:5432/postgres
 ```
 </details>
 
